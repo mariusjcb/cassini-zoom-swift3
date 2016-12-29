@@ -7,21 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A1D99751E150539009C0C35 /* CassiniZoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1D99741E150539009C0C35 /* CassiniZoomViewController.swift */; };
 		7A5764DC1E141A39003FC7CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5764DB1E141A39003FC7CE /* AppDelegate.swift */; };
-		7A5764DE1E141A39003FC7CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5764DD1E141A39003FC7CE /* ViewController.swift */; };
 		7A5764E11E141A39003FC7CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A5764DF1E141A39003FC7CE /* Main.storyboard */; };
 		7A5764E31E141A39003FC7CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A5764E21E141A39003FC7CE /* Assets.xcassets */; };
 		7A5764E61E141A39003FC7CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A5764E41E141A39003FC7CE /* LaunchScreen.storyboard */; };
+		7A5764F21E141A9C003FC7CE /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5764F11E141A9C003FC7CE /* ImageViewController.swift */; };
+		7A5764F41E141D72003FC7CE /* DemoURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5764F31E141D72003FC7CE /* DemoURL.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7A1D99741E150539009C0C35 /* CassiniZoomViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CassiniZoomViewController.swift; sourceTree = "<group>"; };
 		7A5764D81E141A39003FC7CE /* Cassini Zoom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cassini Zoom.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A5764DB1E141A39003FC7CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7A5764DD1E141A39003FC7CE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7A5764E01E141A39003FC7CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7A5764E21E141A39003FC7CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7A5764E51E141A39003FC7CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7A5764E71E141A39003FC7CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A5764F11E141A9C003FC7CE /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		7A5764F31E141D72003FC7CE /* DemoURL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoURL.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +58,24 @@
 		7A5764DA1E141A39003FC7CE /* Cassini Zoom */ = {
 			isa = PBXGroup;
 			children = (
-				7A5764DB1E141A39003FC7CE /* AppDelegate.swift */,
-				7A5764DD1E141A39003FC7CE /* ViewController.swift */,
+				7A5764F11E141A9C003FC7CE /* ImageViewController.swift */,
+				7A1D99741E150539009C0C35 /* CassiniZoomViewController.swift */,
+				7A5764F31E141D72003FC7CE /* DemoURL.swift */,
 				7A5764DF1E141A39003FC7CE /* Main.storyboard */,
+				7A5764EE1E141A59003FC7CE /* Supporting Files */,
+			);
+			path = "Cassini Zoom";
+			sourceTree = "<group>";
+		};
+		7A5764EE1E141A59003FC7CE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7A5764DB1E141A39003FC7CE /* AppDelegate.swift */,
 				7A5764E21E141A39003FC7CE /* Assets.xcassets */,
 				7A5764E41E141A39003FC7CE /* LaunchScreen.storyboard */,
 				7A5764E71E141A39003FC7CE /* Info.plist */,
 			);
-			path = "Cassini Zoom";
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +151,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A5764DE1E141A39003FC7CE /* ViewController.swift in Sources */,
+				7A1D99751E150539009C0C35 /* CassiniZoomViewController.swift in Sources */,
+				7A5764F21E141A9C003FC7CE /* ImageViewController.swift in Sources */,
 				7A5764DC1E141A39003FC7CE /* AppDelegate.swift in Sources */,
+				7A5764F41E141D72003FC7CE /* DemoURL.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +318,7 @@
 				7A5764EC1E141A39003FC7CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
